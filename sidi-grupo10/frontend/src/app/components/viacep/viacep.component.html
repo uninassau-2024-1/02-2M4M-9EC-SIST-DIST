@@ -1,0 +1,21 @@
+<div>
+  <h2>Consulta de Endereço pelo CEP</h2>
+  <form (ngSubmit)="onSubmit()">
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep" name="cep" [(ngModel)]="cep" required />
+    <button type="submit">Consultar</button>
+  </form>
+
+  <div *ngIf="endereco">
+    <h2>Endereço Encontrado</h2>
+    <p>Logradouro: {{ endereco.logradouro }}</p>
+    <p>Bairro: {{ endereco.bairro }}</p>
+    <p>Localidade: {{ endereco.localidade }}</p>
+    <p>UF: {{ endereco.uf }}</p>
+  </div>
+
+  <div *ngIf="errorMessage">
+    <h2>Erro ao Consultar CEP</h2>
+    <p>{{ errorMessage }}</p>
+  </div>
+</div>
