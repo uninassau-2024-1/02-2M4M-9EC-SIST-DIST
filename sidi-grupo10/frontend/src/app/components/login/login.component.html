@@ -1,0 +1,24 @@
+<div>
+    <h1>Registre sua conta</h1>
+    <form (ngSubmit)="onSubmit()">
+        <label for="PrimeiroNome">Nome</label>
+        <input type="text" name="PrimeiroNome">
+
+        <label for="SegundoNome">Sobre Nome</label>
+        <input type="text" name="SegundoNome">
+
+        <label for="cep">CEP</label>
+        <input type="number" name="cep" >
+
+        <label for="Email">Email</label>
+        <input type="email" name="Email" >
+
+        <button type="submit">Registrar</button>
+    </form>
+    
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Registrar">Registrar</a></li>
+        <li><a href="/login">Login</a></li>
+    </ul>
+</div>

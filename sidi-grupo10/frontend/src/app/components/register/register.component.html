@@ -1,0 +1,15 @@
+<div>
+    <h1>Pagina de Login</h1>
+    <form (ngSubmit)="onSubmit()">
+        <label for="Email">Email</label>
+        <input type="email" name="Email" [(ngModel)]="Email"> 
+
+        <button type="submit">Registrar</button>
+    </form>
+
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Registrar">Registrar</a></li>
+        <li><a href="/login">Login</a></li>
+    </ul>
+</div>
