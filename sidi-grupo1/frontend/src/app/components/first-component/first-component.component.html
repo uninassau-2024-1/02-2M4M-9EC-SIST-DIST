@@ -1,0 +1,17 @@
+<h2>Consultar CEP</h2>
+<form (submit)="consultarCEP()">
+  <label>
+    Insira o CEP:
+    <input type="text" [(ngModel)]="cep" name="cep" required>
+  </label>
+  <button type="submit">Consultar</button>
+</form>
+
+<div *ngIf="cepInfo">
+  <h3>Informações do CEP:</h3>
+  <p>CEP: {{ cepInfo.cep }}</p>
+  <p>Logradouro: {{ cepInfo.logradouro }}</p>
+  <p>Bairro: {{ cepInfo.bairro }}</p>
+  <p>Cidade: {{ cepInfo.localidade }}</p>
+  <p>Estado: {{ cepInfo.uf }}</p>
+</div>
