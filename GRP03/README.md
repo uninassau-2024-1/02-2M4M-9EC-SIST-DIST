@@ -4,8 +4,8 @@ Este é um projeto desenvolvido como parte do trabalho da faculdade, que consist
 
 ## 👩‍💻 Participantes
 
-- Nathan Henrique dos Santos - 01356166 (https://github.com/Neitanhs) 🌟
-- Matheus Ferreira do Nascimento - 01343678 💻
-- Lucas Alexandre Francisco de Melo - 01351880 🎨
-- Victória Santiago dos Santos- 01359061 ✨
 - Gabriel Ferraz M. - 🚀
+- Lucas Alexandre Francisco de Melo - 01351880 🎨
+- Matheus Ferreira do Nascimento - 01343678 💻
+- Nathan Henrique dos Santos - 01356166 (https://github.com/Neitanhs) 🌟
+- Victória Santiago dos Santos- 01359061 ✨
