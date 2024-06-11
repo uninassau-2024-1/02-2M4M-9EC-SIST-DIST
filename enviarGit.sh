@@ -10,6 +10,6 @@ find . -type d -name 'node_modules' -exec rm -rf {} +
 #     git update-index --no-assume-unchanged $filename
 # done
 
-git add .
+git add . -A
 git commit -m 'Repositório fechado.'
-git push origin main
+git push origin main --force
